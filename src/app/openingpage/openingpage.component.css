@@ -1,0 +1,32 @@
+p
+{
+    font-size: 50px;
+    font-weight: 600;
+    color: aliceblue;
+    letter-spacing: 5px;
+    z-index: 999;
+}
+.s
+{
+    z-index: 1;
+}
+svg
+{
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.ccc
+{
+    z-index: 999;
+}
+.to
+{
+    font-size: 33px;
+    font-family: emoji;
+    text-decoration: underline;
+    cursor: pointer;
+}

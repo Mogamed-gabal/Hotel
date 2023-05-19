@@ -1,0 +1,9 @@
+.header h2
+{
+    transition: ease-in-out .3s;
+}
+.header h2:hover
+{
+    color: rgb(1, 1, 37);
+    transform: rotatex(30deg);
+}

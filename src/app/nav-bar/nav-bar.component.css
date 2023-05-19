@@ -1,0 +1,58 @@
+*
+{
+    font-family: cursive;
+}
+.hotel-Logo h1
+{
+    position: relative;
+}
+.hotel-Logo h1::before
+{
+    position: absolute;
+    content: "";
+    left: 50%;
+    width: 120px;
+    height: 3px;
+    background-image: linear-gradient(45deg, black, transparent);
+    bottom: -10px;
+    transform: translateX(-50%);
+    transition: ease-in-out .3s;
+}
+.hotel-Logo h1:hover::before
+{
+    width: 300px;
+
+}
+
+nav li a
+{
+    font-size: 23px;
+    transition: 0.3s ease-in-out;
+}
+nav li a:hover
+{
+    transform: scale(1.1);
+    color: black;
+}
+.nav-container
+{
+    position: relative;
+}
+.nav-container::before
+{
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    background-color: rgb(7 104 104);
+    content: "";
+    bottom: 0;
+}
+.nav-container::after
+{position: absolute;
+    width: 56%;
+    height: 3px;
+    background-color: rgb(7 104 104);
+    content: "";
+    bottom: -10;
+    bottom: -29px;
+}

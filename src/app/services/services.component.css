@@ -1,0 +1,51 @@
+.services-box p
+
+{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.services-box  h2
+{
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    font-size: 27px;
+    color: #1e1b1b;
+    
+    
+}
+.header h2
+{
+    transition: ease-in-out .3s;
+}
+.header h2:hover
+{
+    color: rgb(1, 1, 37);
+    transform: rotatex(30deg);
+}
+.services-img img
+{
+    border-radius: 13px;
+}
+footer p
+
+{
+    font-size: 27px;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: cursive;
+}
+footer p .la
+{
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+footer p .la:hover
+{
+    color: black;
+    transform: translateX(-10);
+
+}

@@ -1,0 +1,44 @@
+.body
+{
+    padding-top: 70px;
+}
+.head p
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+.body-img
+{
+    background-image: url(../../assets/img/bg.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.layer
+{
+    width: 100%;
+    height: 80vh;
+    background-color: #0000007d;
+}
+.footer-details p
+{
+    line-height: 28px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-links a
+{
+    font-size: 18px;
+    font-weight: 400;
+    transition: .2s ease-in-out;
+    color: black;
+}
+.footer-links a:hover
+{
+    transform: scale(1.2);
+    color: rgb(43, 116, 177);
+    text-decoration: underline;
+}

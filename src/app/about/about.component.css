@@ -1,0 +1,61 @@
+.header-box h2
+{
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+}
+.header-box p
+{
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 10px;  
+}
+.sec-img img
+{
+    height: 75vh;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.header-box h2::before
+{position: absolute;
+    width: 70%;
+    height: 3px;
+    background-color: black;
+    content: "";
+    bottom: -6;
+    left: 0;
+    bottom: -8px;
+}
+.header-box h2::after
+{position: absolute;
+    width: 70%;
+    height: 3px;
+    background-color: black;
+    content: "";
+    bottom: -8;
+    left: 0;
+    bottom: -15px;
+}
+.creator-info
+{
+    border: 1px solid black;
+    position: relative;
+}
+.creator-info::before
+{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+}
+.info ul li 
+{
+    padding:2px;
+    font-weight: 400;
+  
+    letter-spacing: 0.3px;
+}

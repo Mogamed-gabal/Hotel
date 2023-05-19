@@ -1,0 +1,40 @@
+.header h2
+{
+    transition: ease-in-out .3s;
+}
+.header h2:hover
+{
+    color: rgb(1, 1, 37);
+    transform: rotatex(30deg);
+}
+.room
+{
+    box-shadow: #a2bcc3 1px 9px 19px 6px;
+    border-top-left-radius: 10px;
+}
+.rooms-desc
+{
+   
+    font-family: cursive;
+    color: #150505ad;
+}
+.rooms-desc p
+{
+    font-size: 18px;
+}
+.room-details
+{
+   
+    padding: 10px;
+}
+.room-details  .lo
+{
+    cursor: pointer;
+    transition: ease-in-out .3s
+    ;
+}
+.room-details .lo:hover
+{
+ transform:scale(1.3);
+ color:black;
+}
